@@ -3,9 +3,9 @@ This is the project where we take twitter scrape from the Twitter and also edit 
 
 # Important Libraries
 
-snscraper
-Pandas
-Streamlit
-Json
-pymongo
-datetime
+ .snscraper
+ Pandas
+ Streamlit
+ Json
+ pymongo
+ datetime
