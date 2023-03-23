@@ -48,13 +48,9 @@ with col2:
                        file_name='tweets.json',
                        mime='application/json')
 
-
-
-
 df=pd.read_csv("tweets.csv")
 
 # Defining a function to filter the data based on given hashtag
-
 def filter_hashtag(hashtag):
     if hashtag:
         filtered_hashtag = df[df['Tweet'].str.contains(hashtag)]
